@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import Card from '../(shared)/Card'
-import { Post } from '@prisma/client'
+import { type Post } from '@prisma/client'
 
 interface TravelProps {
     travelPosts: Post[]

@@ -1,4 +1,4 @@
-import { Post } from '@prisma/client'
+import { type Post } from '@prisma/client'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { FC } from 'react'

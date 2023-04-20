@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import Card from './Card'
-import { Post } from '@prisma/client'
+import { type Post } from '@prisma/client'
 
 interface OtherProps {
     otherPosts: Post[]
